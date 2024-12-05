@@ -165,11 +165,11 @@ aside img {
 	animation-delay: 3s;
 }
 @keyframes aside-img {
-	0%    {left: 0px; top: 15px;}
-	25%   {left: 15px; top: 20px}
-	50%   {left: 30px; top: 35px}
-	75%   {left: 20px; top: 15px}
-	100%  {left:0px; top: 0px}
+	0%    {left: 0px; top: 30px;}
+	25%   {left: 15px; top: 50px}
+	50%   {left: 30px; top: 100px}
+	75%   {left: 50px; top: 15px}
+	100%  {left:30px; top: 0px}
 }
 /* the styles for the footer */
 footer {
