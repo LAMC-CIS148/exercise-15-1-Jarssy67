@@ -137,8 +137,12 @@ article img {
 	float: right;
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 2s;
 }
-
+@-webkit-keyframes spin {
+	100% {-webkit-transform: rotate(720deg); }
+}
 /* the styles for the aside */
 aside {
 	width: 215px;
