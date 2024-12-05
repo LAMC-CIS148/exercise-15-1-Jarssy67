@@ -140,7 +140,7 @@ article img {
 	-webkit-animation-duration: 3s;
 	-webkit-animation-delay: 2s;
 }
-@-webkit-keyframes spin {
+@-webkit-keyframes article-img {
 	100% {-webkit-transform: rotate(720deg); }
 }
 /* the styles for the aside */
