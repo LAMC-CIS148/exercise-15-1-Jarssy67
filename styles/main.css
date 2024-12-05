@@ -152,13 +152,25 @@ aside h2 {
 }
 
 aside h3 {
-	font-size: 105%;
+	font-size: 105%; 
 	padding-bottom: .25em;
 }
 aside img {
 	padding-bottom: 1em;
+	width: 50px;
+	height: auto;
+	position: relative; 
+	animation-name: aside-img;
+	animation-duration: 2s;
+	animation-delay: 3s;
 }
-
+@keyframes aside-img {
+	0%    {left: 0px; top: 15px;}
+	25%   {left: 15px; top: 20px}
+	50%   {left: 30px; top: 35px}
+	75%   {left: 20px; top: 15px}
+	100%  {left:0px; top: 0px}
+}
 /* the styles for the footer */
 footer {
 	background-color: #931420;
