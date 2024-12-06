@@ -138,6 +138,15 @@ article img {
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
 }
+.image {
+	overflow: hidden;
+	transition-duration: 3s;
+	transition-property: transform;
+}
+.image:hover {
+	transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+}
 /* the styles for the aside */
 aside {
 	width: 215px;
