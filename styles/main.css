@@ -171,6 +171,7 @@ aside img {
 	animation-name: aside-img;
 	animation-duration: 2s;
 	animation-delay: 3s;
+	transition: transform 2000ms ease-in-out;
 }
 @keyframes aside-img {
 	0%    {left: 0px; top: 7px;}
@@ -178,6 +179,7 @@ aside img {
 	50%   {left: 100px; top: 20px}
 	75%   {left: 14px; top: 40px}
 	100%  {left:7pxpx; top: 0px}
+	transform: scale(1.4);
 }
 /* the styles for the footer */
 footer {
