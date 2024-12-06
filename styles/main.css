@@ -165,7 +165,7 @@ aside h3 {
 }
 aside img {
 	padding-bottom: 1em;
-	width: 50px;
+	width: 70px;
 	height: auto;
 	position: relative; 
 	animation-name: aside-img;
@@ -173,11 +173,11 @@ aside img {
 	animation-delay: 3s;
 }
 @keyframes aside-img {
-	0%    {left: 0px; top: 30px;}
-	25%   {left: 15px; top: 50px}
-	50%   {left: 30px; top: 100px}
-	75%   {left: 50px; top: 15px}
-	100%  {left:30px; top: 0px}
+	0%    {left: 0px; top: 7px;}
+	25%   {left: 40px; top: 14px}
+	50%   {left: 100px; top: 20px}
+	75%   {left: 14px; top: 40px}
+	100%  {left:7pxpx; top: 0px}
 }
 /* the styles for the footer */
 footer {
