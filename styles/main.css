@@ -139,9 +139,9 @@ article img {
 	border: 1px solid black;
 	-webkit-animation-duration: 3s;
 	-webkit-animation-delay: 2s;
-}
 @-webkit-keyframes article-img {
-	100% {-webkit-transform: rotate(720deg); }
+	100% {-webkit-transform: rotate(720deg); } 
+	}
 }
 /* the styles for the aside */
 aside {
